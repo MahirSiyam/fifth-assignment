@@ -22,7 +22,7 @@
 
                 <div class="flex items-center gap-2 bg-indigo-50 px-2 rounded-full">
                     <img class="w-6 h-6" src="./assets/checkbox.png" alt="">
-                    <p class="font-bold">23</p>
+                    <p id="check-point" class="font-bold">23</p>
                 </div>
 
                 <div id="color-button" class="btn btn-ghost btn-circle w-10 rounded-full">
@@ -36,13 +36,13 @@
     <main class="max-w-screen-xl mx-auto">
         <section class="flex justify-evenly ">
             <div class="w-8/12">
-                <div class="flex justify-evenly gap-6 mb-3">
+                <div class="flex justify-around gap-3 mb-3">
 
-                    <div class="flex items-center gap-2 bg-indigo-50 px-7 rounded-xl">
+                    <div class="flex items-center gap-2 bg-indigo-50 px-8 pl-3 rounded-xl">
                         <img class="w-6" src="./assets/checkbox.png" alt="">
                         <div>
-                            <p>Task Assiged</p>
-                            <p>05</p>
+                            <p>Task Assigned</p>
+                            <p id="task-assigned-point" class="font-bold">05</p>
                         </div>
                     </div>
 
@@ -51,9 +51,9 @@
                         <p>Discover Something New Today!</p>
                     </div>
 
-                    <div class="flex items-center gap-2 bg-indigo-50 px-7 rounded-xl">
+                    <div class="flex items-center gap-2 bg-indigo-50 px-5 rounded-xl">
                         <img class="w-6 h-6" src="./assets/calender.png" alt="">
-                        <p>Wed,<br> Jul 28 2025</p>
+                        <p id="time-and-date"></p>
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@
                     <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
                         <div class="p-4 space-y-2">
                             <span class="bg-white p-2 rounded-xl">ShopEase</span>
-                            <h2 class="card-title mt-2">Fix Mobile Button Issue</h2>
+                            <h2 id="card-1" class="card-title mt-2">Fix Mobile Button Issue</h2>
                             <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping
                                 elements, and ensure onClick works properly
                                 and ensure onClick works properly</p>
@@ -72,7 +72,7 @@
                                     <p>Deadline</p>
                                     <h1 class="font-bold">21 March 2025</h1>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button id="completed-btn" class="btn btn-primary">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -169,12 +169,10 @@
                     <img class="w-6 h-6" src="./assets/activity.png" alt="">
                     <p>Activity Log</p>
                 </div>
-                <button class="btn btn-primary mb-4">Medium</button>
+                <button id="clear-history-btn" class="btn btn-primary mb-4">Clear History</button>
 
-                <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, maiores fugit eligendi corporis
-                        ullam, adipisci architecto nisi assumenda repellat odio nihil quas laboriosam nemo eius, saepe
-                        temporibus consequuntur accusamus nobis!</p>
+                <div id="notification-massage">
+
                 </div>
             </div>
         </section>
@@ -183,6 +181,8 @@
 
     <script src="js/colorButton.js"></script>
     <script src="js/discoverSomethingBtn.js"></script>
+    <script src="js/timeAndDate.js"></script>
+    <script src="js/completedBtn.js"></script>
 </body>
 
 </html>
