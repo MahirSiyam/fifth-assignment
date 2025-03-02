@@ -11,7 +11,7 @@
 
 <body class="max-w-screen-xl mx-auto mt-5">
     <header class="mb-6">
-        <div class="navbar bg-base-100 shadow-sm rounded-xl">
+        <div class="navbar bg-base-100 shadow-sm rounded-b-xl">
             <div class="flex-1">
                 <div class="flex items-center gap-2">
                     <img class="w-6 h-6" src="./assets/logo.png" alt="">
@@ -24,13 +24,11 @@
                     <img class="w-6 h-6" src="./assets/checkbox.png" alt="">
                     <p class="font-bold">23</p>
                 </div>
-                <div class="dropdown dropdown-end">
-                    <div class="btn btn-ghost btn-circle">
-                        <div class="w-10 rounded-full">
-                            <img alt="Tailwind CSS Navbar component" src="./assets/theme-btn.png" />
-                        </div>
-                    </div>
+                
+                <div id="color-button" class="btn btn-ghost btn-circle w-10 rounded-full">
+                    <img alt="Tailwind CSS Navbar component" src="./assets/theme-btn.png" />
                 </div>
+                    
             </div>
         </div>
     </header>
@@ -173,6 +171,15 @@
             </div>
         </section>
     </main>
+
+
+
+    <script>
+    document.getElementById("color-button").addEventListener("click", function (event) { 
+    event.preventDefault();
+    document.body.style.backgroundColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
+});
+    </script>
 </body>
 
 </html>
