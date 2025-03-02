@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page 1</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="max-w-screen-xl mx-auto mt-5">
-    <header class="mb-6">
+<body>
+    <header class="max-w-screen-xl mx-auto mb-6">
         <div class="navbar bg-base-100 shadow-sm rounded-b-xl">
             <div class="flex-1">
                 <div class="flex items-center gap-2">
@@ -24,16 +24,16 @@
                     <img class="w-6 h-6" src="./assets/checkbox.png" alt="">
                     <p class="font-bold">23</p>
                 </div>
-                
+
                 <div id="color-button" class="btn btn-ghost btn-circle w-10 rounded-full">
                     <img alt="Tailwind CSS Navbar component" src="./assets/theme-btn.png" />
                 </div>
-                    
+
             </div>
         </div>
     </header>
 
-    <main>
+    <main class="max-w-screen-xl mx-auto">
         <section class="flex justify-evenly ">
             <div class="w-8/12">
                 <div class="flex justify-evenly gap-6 mb-3">
@@ -45,114 +45,120 @@
                             <p>05</p>
                         </div>
                     </div>
-    
-                    <div class="flex items-center btn btn-xl px-5 py-14 rounded-xl bg-gradient-to-r from-blue-500 to-violet-400 text-white">
+
+                    <div id="discover-something-btn" class="flex items-center btn btn-xl px-5 py-14 rounded-xl bg-gradient-to-r from-blue-500 to-violet-400 text-white">
                         <img src="./assets/board.png" alt="">
                         <p>Discover Something New Today!</p>
                     </div>
-    
+
                     <div class="flex items-center gap-2 bg-indigo-50 px-7 rounded-xl">
                         <img class="w-6 h-6" src="./assets/calender.png" alt="">
                         <p>Wed,<br> Jul 28 2025</p>
                     </div>
                 </div>
-    
-    
+
+
                 <div class="grid grid-cols-3 gap-2">
-                    
+
                     <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
                         <div class="p-4 space-y-2">
-                          <span class="bg-white p-2 rounded-xl">ShopEase</span>
-                          <h2 class="card-title mt-2">Fix Mobile Button Issue</h2>
-                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            and ensure onClick works properly</p>
-                          <div class="flex items-center justify-between">
-                            <div>
-                                <p>Deadline</p>
-                                <h1 class="font-bold">21 March 2025</h1>
+                            <span class="bg-white p-2 rounded-xl">ShopEase</span>
+                            <h2 class="card-title mt-2">Fix Mobile Button Issue</h2>
+                            <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping
+                                elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p>Deadline</p>
+                                    <h1 class="font-bold">21 March 2025</h1>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
                             </div>
-                            <button class="btn btn-primary">Completed</button>
-                          </div>
-                        </div>
-                    </div>
-        
-                    <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
-                        <div class="p-4 space-y-2">
-                          <span class="bg-white p-2 rounded-xl">CloudSync</span>
-                          <h2 class="card-title mt-2">Add Dark Mode</h2>
-                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            and ensure onClick works properly</p>
-                          <div class="flex items-center justify-between">
-                            <div>
-                                <p>Deadline</p>
-                                <h1 class="font-bold">21 March 2025</h1>
-                            </div>
-                            <button class="btn btn-primary">Completed</button>
-                          </div>
                         </div>
                     </div>
 
                     <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
                         <div class="p-4 space-y-2">
-                          <span class="bg-white p-2 rounded-xl">SwiftPay</span>
-                          <h2 class="card-title mt-2">Optimize  Home page</h2>
-                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            and ensure onClick works properly</p>
-                          <div class="flex items-center justify-between">
-                            <div>
-                                <p>Deadline</p>
-                                <h1 class="font-bold">21 March 2025</h1>
+                            <span class="bg-white p-2 rounded-xl">CloudSync</span>
+                            <h2 class="card-title mt-2">Add Dark Mode</h2>
+                            <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping
+                                elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p>Deadline</p>
+                                    <h1 class="font-bold">21 March 2025</h1>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
                             </div>
-                            <button class="btn btn-primary">Completed</button>
-                          </div>
                         </div>
                     </div>
 
                     <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
                         <div class="p-4 space-y-2">
-                          <span class="bg-white p-2 rounded-xl">Meta</span>
-                          <h2 class="card-title mt-2">Add new emoji 🤲</h2>
-                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            and ensure onClick works properly</p>
-                          <div class="flex items-center justify-between">
-                            <div>
-                                <p>Deadline</p>
-                                <h1 class="font-bold">21 March 2025</h1>
+                            <span class="bg-white p-2 rounded-xl">SwiftPay</span>
+                            <h2 class="card-title mt-2">Optimize Home page</h2>
+                            <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping
+                                elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p>Deadline</p>
+                                    <h1 class="font-bold">21 March 2025</h1>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
                             </div>
-                            <button class="btn btn-primary">Completed</button>
-                          </div>
                         </div>
                     </div>
 
                     <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
                         <div class="p-4 space-y-2">
-                          <span class="bg-white p-2 rounded-xl">Google LLC</span>
-                          <h2 class="card-title mt-2">Integrate OpenAI API</h2>
-                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            and ensure onClick works properly</p>
-                          <div class="flex items-center justify-between">
-                            <div>
-                                <p>Deadline</p>
-                                <h1 class="font-bold">21 March 2025</h1>
+                            <span class="bg-white p-2 rounded-xl">Meta</span>
+                            <h2 class="card-title mt-2">Add new emoji 🤲</h2>
+                            <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping
+                                elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p>Deadline</p>
+                                    <h1 class="font-bold">21 March 2025</h1>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
                             </div>
-                            <button class="btn btn-primary">Completed</button>
-                          </div>
                         </div>
                     </div>
 
                     <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
                         <div class="p-4 space-y-2">
-                          <span class="bg-white p-2 rounded-xl">Glassdoar</span>
-                          <h2 class="card-title mt-2">Improve Job searching </h2>
-                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            and ensure onClick works properly</p>
-                          <div class="flex items-center justify-between">
-                            <div>
-                                <p>Deadline</p>
-                                <h1 class="font-bold">21 March 2025</h1>
+                            <span class="bg-white p-2 rounded-xl">Google LLC</span>
+                            <h2 class="card-title mt-2">Integrate OpenAI API</h2>
+                            <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping
+                                elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p>Deadline</p>
+                                    <h1 class="font-bold">21 March 2025</h1>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
                             </div>
-                            <button class="btn btn-primary">Completed</button>
-                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
+                        <div class="p-4 space-y-2">
+                            <span class="bg-white p-2 rounded-xl">Glassdoar</span>
+                            <h2 class="card-title mt-2">Improve Job searching </h2>
+                            <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping
+                                elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p>Deadline</p>
+                                    <h1 class="font-bold">21 March 2025</h1>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,20 +172,17 @@
                 <button class="btn btn-primary mb-4">Medium</button>
 
                 <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, maiores fugit eligendi corporis ullam, adipisci architecto nisi assumenda repellat odio nihil quas laboriosam nemo eius, saepe temporibus consequuntur accusamus nobis!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, maiores fugit eligendi corporis
+                        ullam, adipisci architecto nisi assumenda repellat odio nihil quas laboriosam nemo eius, saepe
+                        temporibus consequuntur accusamus nobis!</p>
                 </div>
             </div>
         </section>
     </main>
 
 
-
-    <script>
-    document.getElementById("color-button").addEventListener("click", function (event) { 
-    event.preventDefault();
-    document.body.style.backgroundColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
-});
-    </script>
+    <script src="js/colorButton.js"></script>
+    <script src="js/discoverSomethingBtn.js"></script>
 </body>
 
 </html>

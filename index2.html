@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-indigo-50 pb-10">
+    <header class="max-w-screen-xl mx-auto mb-6">
+        <div class="navbar bg-base-100 shadow-sm rounded-b-xl">
+            <div class="flex-1">
+                <div class="flex items-center gap-2">
+                    <img class="w-6 h-6" src="./assets/logo.png" alt="">
+                    <a class="text-xl">Dev<span class="font-bold">Board</span></a>
+                </div>
+            </div>
+            <button id="back-btn" class="btn btn-primary mb-4">Back to Desk</button>
+        </div>
+    </header>
+
+    <main class="max-w-screen-xl mx-auto mt-5 "> 
+        <h1 class="font-bold text-lg text-center mb-8">Blogs</h1>
+        <section>
+            <div class="mb-10 bg-white p-5 rounded-xl">
+                <h1 class="font-bold text-lg mb-4">Question-1: What are the different ways to select an element in the DOM?</h1>
+                <p class="text-lg font-normal">document.getElementById('Id') selects an element by its ID, while document.querySelector('.Class') selects the first element with a specific class.</p>
+            </div>
+
+            <div class="mb-10 bg-white p-5 rounded-xl">
+                <h1 class="font-bold text-lg mb-4">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+                <p class="text-lg font-normal">innerHTML includes HTML content and can render tags, innerText shows only visible text without hidden elements, and textContent displays all text content including hidden elements without rendering HTML tags.</p>
+            </div>
+
+            <div class="mb-10 bg-white p-5 rounded-xl">
+                <h1 class="font-bold text-lg mb-4">Question-3: What is event delegation in the DOM?</h1>
+                <p class="text-lg font-normal">Event delegation is a technique in JavaScript where you add a single event listener to a parent element to handle events for all of its child elements. It leverages event bubbling to manage dynamic content efficiently and reduce the number of event listeners.</p>
+            </div>
+
+            <div class="mb-10 bg-white p-5 rounded-xl">
+                <h1 class="font-bold text-lg mb-4">Question-4: What is event bubbling in the DOM?</h1>
+                <p class="text-lg font-normal">Event bubbling is a behavior in the DOM where an event triggered on a child element propagates up through its ancestors in the hierarchy. This allows parent elements to handle events that occur on their children.</p>
+            </div>
+
+            <div class=" bg-white p-5 rounded-xl">
+                <h1 class="font-bold text-lg">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+                <p class="text-lg font-normal">To create an element, use document.createElement(tagName). To add it, use parentElement.appendChild(newElement). To remove it, use parentElement.removeChild(childElement).</p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/discoverSomethingBtn.js"></script>
+    <script src="js/backBtn.js"></script>
+</body>
+</html>
