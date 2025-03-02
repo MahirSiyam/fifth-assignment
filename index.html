@@ -9,9 +9,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="max-w-screen-xl mx-auto">
-    <header>
-        <div class="navbar bg-base-100 shadow-sm">
+<body class="max-w-screen-xl mx-auto mt-5">
+    <header class="mb-6">
+        <div class="navbar bg-base-100 shadow-sm rounded-xl">
             <div class="flex-1">
                 <div class="flex items-center gap-2">
                     <img class="w-6 h-6" src="./assets/logo.png" alt="">
@@ -25,7 +25,7 @@
                     <p class="font-bold">23</p>
                 </div>
                 <div class="dropdown dropdown-end">
-                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                    <div class="btn btn-ghost btn-circle">
                         <div class="w-10 rounded-full">
                             <img alt="Tailwind CSS Navbar component" src="./assets/theme-btn.png" />
                         </div>
@@ -36,7 +36,142 @@
     </header>
 
     <main>
+        <section class="flex justify-evenly ">
+            <div class="w-8/12">
+                <div class="flex justify-evenly gap-6 mb-3">
 
+                    <div class="flex items-center gap-2 bg-indigo-50 px-7 rounded-xl">
+                        <img class="w-6" src="./assets/checkbox.png" alt="">
+                        <div>
+                            <p>Task Assiged</p>
+                            <p>05</p>
+                        </div>
+                    </div>
+    
+                    <div class="flex items-center btn btn-xl px-5 py-14 rounded-xl bg-gradient-to-r from-blue-500 to-violet-400 text-white">
+                        <img src="./assets/board.png" alt="">
+                        <p>Discover Something New Today!</p>
+                    </div>
+    
+                    <div class="flex items-center gap-2 bg-indigo-50 px-7 rounded-xl">
+                        <img class="w-6 h-6" src="./assets/calender.png" alt="">
+                        <p>Wed,<br> Jul 28 2025</p>
+                    </div>
+                </div>
+    
+    
+                <div class="grid grid-cols-3 gap-2">
+                    
+                    <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
+                        <div class="p-4 space-y-2">
+                          <span class="bg-white p-2 rounded-xl">ShopEase</span>
+                          <h2 class="card-title mt-2">Fix Mobile Button Issue</h2>
+                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                          <div class="flex items-center justify-between">
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="font-bold">21 March 2025</h1>
+                            </div>
+                            <button class="btn btn-primary">Completed</button>
+                          </div>
+                        </div>
+                    </div>
+        
+                    <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
+                        <div class="p-4 space-y-2">
+                          <span class="bg-white p-2 rounded-xl">CloudSync</span>
+                          <h2 class="card-title mt-2">Add Dark Mode</h2>
+                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                          <div class="flex items-center justify-between">
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="font-bold">21 March 2025</h1>
+                            </div>
+                            <button class="btn btn-primary">Completed</button>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
+                        <div class="p-4 space-y-2">
+                          <span class="bg-white p-2 rounded-xl">SwiftPay</span>
+                          <h2 class="card-title mt-2">Optimize  Home page</h2>
+                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                          <div class="flex items-center justify-between">
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="font-bold">21 March 2025</h1>
+                            </div>
+                            <button class="btn btn-primary">Completed</button>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
+                        <div class="p-4 space-y-2">
+                          <span class="bg-white p-2 rounded-xl">Meta</span>
+                          <h2 class="card-title mt-2">Add new emoji 🤲</h2>
+                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                          <div class="flex items-center justify-between">
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="font-bold">21 March 2025</h1>
+                            </div>
+                            <button class="btn btn-primary">Completed</button>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
+                        <div class="p-4 space-y-2">
+                          <span class="bg-white p-2 rounded-xl">Google LLC</span>
+                          <h2 class="card-title mt-2">Integrate OpenAI API</h2>
+                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                          <div class="flex items-center justify-between">
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="font-bold">21 March 2025</h1>
+                            </div>
+                            <button class="btn btn-primary">Completed</button>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-base-100 card-lg shadow-sm bg-indigo-50">
+                        <div class="p-4 space-y-2">
+                          <span class="bg-white p-2 rounded-xl">Glassdoar</span>
+                          <h2 class="card-title mt-2">Improve Job searching </h2>
+                          <p class="p-6 bg-white rounded-xl">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                          <div class="flex items-center justify-between">
+                            <div>
+                                <p>Deadline</p>
+                                <h1 class="font-bold">21 March 2025</h1>
+                            </div>
+                            <button class="btn btn-primary">Completed</button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-3/12 text-center pt-3">
+                <div class="flex gap-2 justify-center mb-4">
+                    <img class="w-6 h-6" src="./assets/activity.png" alt="">
+                    <p>Activity Log</p>
+                </div>
+                <button class="btn btn-primary mb-4">Medium</button>
+
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, maiores fugit eligendi corporis ullam, adipisci architecto nisi assumenda repellat odio nihil quas laboriosam nemo eius, saepe temporibus consequuntur accusamus nobis!</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
